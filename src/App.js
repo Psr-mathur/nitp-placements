@@ -9,8 +9,8 @@ export default function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/formfill" element={<Form/>}/>
+                <Route path="/nitp-placements" element={<Home/>} />
+                <Route path="/nitp-placements/formfill" element={<Form/>}/>
                 <Route path="*" element={<h1>Error Page Not Found</h1>}/>
             </Routes>
         </BrowserRouter>
