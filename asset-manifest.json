@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nitp-placements/static/css/main.7a7097c6.css",
+    "main.js": "/nitp-placements/static/js/main.0347d189.js",
+    "index.html": "/nitp-placements/index.html",
+    "main.7a7097c6.css.map": "/nitp-placements/static/css/main.7a7097c6.css.map",
+    "main.0347d189.js.map": "/nitp-placements/static/js/main.0347d189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7097c6.css",
+    "static/js/main.0347d189.js"
+  ]
+}
