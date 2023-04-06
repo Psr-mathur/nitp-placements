@@ -6,27 +6,31 @@
     background-color: rgb(242, 249, 253);
     border: 2px solid gray;
     border-radius: 4px;
-    max-width: 450px;
-    min-width: 450px;
+    max-width: 350px;
+    min-width: 350px;
     margin-left: 10px;
-    margin-right: 20px;;
+    margin-right: 20px;
 }
 .nitp{
-    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     color: rgb(49, 20, 59);
 }
 .profile{
-    height: 100px;
+    height: 90px;
     display: flex;
 }
 .dp{
     width: 80px;
     height: 80px;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 80px;
 }
 .profile-img{
-    width: 125px;
+    width: 100px;
     align-items: center;
     justify-content: center;
     border: 1px solid lightgray;
@@ -34,10 +38,23 @@
 }
 .profile-details{
     border: 1px solid lightgray;
-    flex:1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
-.name, .roll, .branch , .company {
+.branch , .company {
     padding-left: 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+.name, .roll{
+    padding-left: 20px;
+    border: 1px solid lightgray;
+    flex:1;
+    display: flex;
+    align-items: center;
 }
 .Card-list{
     display: flex;
@@ -50,5 +67,23 @@
 }
 .order-tag{
     cursor: pointer;
+    height: auto;
+    max-height: 50px;
+    size: auto;
+    background-color: rgb(212, 219, 226);
+    align-items: center;
+}
+.navbg{
+    background-color: rgb(183, 200, 215);
+}
+.changebg{
+    background-color: rgb(220, 241, 220);
+}
+.order-tag>p{
+    height: auto;
+    max-height: 45px;
+}
+.order-tag>span{
+    font-size: small;
 }
 
