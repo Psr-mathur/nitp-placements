@@ -86,7 +86,7 @@ export default function Home() {
     const companyList = Object.entries(mappedDatalist).map(([key, value]) => {
         return (
             <div className="container">
-                <div onClick={handleclick.bind(null, key)} className={boolmapstate[key]?'h1 order-tag row changebg justify-content-between':'h1 order-tag row'}>
+                <div onClick={handleclick.bind(null, key)} className={boolmapstate[key] ? 'h1 order-tag row changebg justify-content-between' : 'h1 order-tag row'}>
                     <p className="col">{key}</p>
                     <span className="col-1">{value.length}</span>
                 </div>
@@ -100,26 +100,35 @@ export default function Home() {
     });
     return (
         <section className="whole">
-            <div className="navbar navbg mb-2 justify-content-evenly sticky-top">
-                <h1>NITP Placements 2023</h1>
-                <Link to="/formfill" target="_blank">Add Details</Link>
-                <select defaultValue={"company"} onChange={(event) => setorder(event.target.value)}>
-                    <option value="company">Company</option>
-                    <option value="branch">Branch</option>
-                    <option value="roll">Roll</option>
-                    <option value="batch">Year</option>
-                </select>
-            </div>
-            {companyList}
-            <div className="container">
-                <div className="h1 row order-tag">
-                    <p className="col">All</p>
-                    <span className="col-1">{datalist.length}</span>
+            <section className="head">
+                <div className="navbar navbg mb-2 justify-content-evenly sticky-top">
+                    <h1>NITP Placements 2023</h1>
+                    <Link to="/nitp-placements/formfill" target="_blank">Add Details</Link>
+                    <select defaultValue={"company"} onChange={(event) => setorder(event.target.value)}>
+                        <option value="company">Company</option>
+                        <option value="branch">Branch</option>
+                        <option value="roll">Roll</option>
+                        <option value="batch">Year</option>
+                    </select>
                 </div>
-                <div className="row">
-                    {datalist}
+            </section>
+            <section className="main">
+                {companyList}
+                <div className="container">
+                    <div className="h1 row order-tag">
+                        <p className="col">All</p>
+                        <span className="col-1">{datalist.length}</span>
+                    </div>
+                    <div className="row">
+                        {datalist}
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section className="foot">
+                <div className="row navbg">
+                    <p className="col">Contact Us :</p>
+                </div>
+            </section>
         </section>
     );
 }

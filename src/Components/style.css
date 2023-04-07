@@ -62,8 +62,8 @@
     flex-wrap: nowrap;
     overflow-x:scroll;
 }
-.whole{
-    padding-bottom: 1000px;
+.main{
+    padding-bottom: 300px;
 }
 .order-tag{
     cursor: pointer;
@@ -85,5 +85,9 @@
 }
 .order-tag>span{
     font-size: small;
+}
+.mrgin{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
