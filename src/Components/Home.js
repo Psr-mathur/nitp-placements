@@ -126,7 +126,7 @@ export default function Home() {
             </section>
             <section className="foot">
                 <div className="row navbg">
-                    <p className="col">Contact Us :</p>
+                    <p className="col">Contact Us : +91 </p>
                 </div>
             </section>
         </section>
