@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nitp-placements/static/css/main.d437fe06.css",
-    "main.js": "/nitp-placements/static/js/main.03ea823e.js",
+    "main.js": "/nitp-placements/static/js/main.be27ee3e.js",
     "index.html": "/nitp-placements/index.html",
     "main.d437fe06.css.map": "/nitp-placements/static/css/main.d437fe06.css.map",
-    "main.03ea823e.js.map": "/nitp-placements/static/js/main.03ea823e.js.map"
+    "main.be27ee3e.js.map": "/nitp-placements/static/js/main.be27ee3e.js.map"
   },
   "entrypoints": [
     "static/css/main.d437fe06.css",
-    "static/js/main.03ea823e.js"
+    "static/js/main.be27ee3e.js"
   ]
 }
