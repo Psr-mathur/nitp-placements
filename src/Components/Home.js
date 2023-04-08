@@ -103,7 +103,7 @@ export default function Home() {
             <section className="head">
                 <div className="navbar navbg mb-2 justify-content-evenly sticky-top">
                     <h1>NITP Placements 2023</h1>
-                    <Link to="/formfill" target="_blank">Add Details</Link>
+                    <Link to="/formfill" >Add Details</Link>
                     <select defaultValue={"company"} onChange={(event) => setorder(event.target.value)}>
                         <option value="company">Company</option>
                         <option value="branch">Branch</option>
