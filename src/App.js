@@ -11,7 +11,7 @@ export default function App(){
             <Routes>
                 <Route path="/nitp-placements" element={<Home/>} />
                 <Route path="/nitp-placements/formfill" element={<Form/>}/>
-                <Route path="*" element={<h1>Error Page Not Found</h1>}/>
+                <Route path="/nitp-placements/error" element={<h1>Error Page Not Found</h1>}/>
             </Routes>
         </BrowserRouter>
     )
